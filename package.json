@@ -12,7 +12,6 @@
     ],
     "scripts": {
         "start-client": "cd client && yarn start-client",
-        "start-server": "cd server && yarn start-server",
         "tslint": "tslint -p . -c tslint.json \"**/*.ts\" \"**/*.tsx\""
     },
     "repository": {
