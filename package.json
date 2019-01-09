@@ -7,10 +7,17 @@
         "name": "Maikel van Veen",
         "email": "maikeloo10@hotmail.com"
     },
+    "contributors": [
+        "Floris Baan"
+    ],
     "scripts": {
         "start-client": "cd client && yarn start-client",
         "start-server": "cd server && yarn start-server",
         "tslint": "tslint -p . -c tslint.json \"**/*.ts\" \"**/*.tsx\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Maikxx/risk-world-generator.git"
     },
     "dependencies": {},
     "devDependencies": {
