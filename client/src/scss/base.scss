@@ -62,9 +62,12 @@ html, body {
 }
 
 body {
+    @import './variables/fonts.scss';
+
     display: flex;
     line-height: 1;
     overflow-x: hidden;
+    font-family: $font-muli;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -ms-overflow-style: -ms-autohiding-scrollbar;

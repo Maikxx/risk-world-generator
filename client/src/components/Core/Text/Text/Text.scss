@@ -1,0 +1,8 @@
+.rwg-Text {
+    @import '../../../../scss/variables/colors';
+
+    &--is-subtle {
+        color: $color-dark-brown;
+        font-size: .8rem;
+    }
+}

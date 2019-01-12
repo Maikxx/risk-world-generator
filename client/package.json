@@ -12,11 +12,14 @@
         "clear-dist": "rm -rf dist/",
         "open-chrome": "wait-on http://localhost:3000 && open -a \"Google Chrome\" http://localhost:3000",
         "start-client": "yarn clear-dist && concurrently \"yarn watch-client\" \"yarn open-chrome\" --raw",
-        "watch-client": "parcel public/index.html -p 3000"
+        "watch-client": "parcel -p 3000 watch public/index.html"
     },
     "devDependencies": {
+        "@types/classnames": "^2.2.7",
+        "@types/lodash-es": "^4.17.1",
         "@types/react": "^16.7.18",
         "@types/react-dom": "^16.0.11",
+        "@types/react-router-dom": "^4.3.1",
         "autoprefixer": "^9.4.4",
         "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0",
@@ -32,8 +35,11 @@
     },
     "dependencies": {
         "babel-polyfill": "^6.26.0",
+        "classnames": "^2.2.6",
+        "lodash-es": "^4.17.11",
         "react": "^16.7.0",
         "react-apollo": "^2.3.3",
-        "react-dom": "^16.7.0"
+        "react-dom": "^16.7.0",
+        "react-router-dom": "^4.3.1"
     }
 }

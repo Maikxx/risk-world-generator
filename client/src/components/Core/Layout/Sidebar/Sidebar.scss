@@ -1,0 +1,16 @@
+.rwg-Sidebar {
+    @import '../../../../scss/variables/colors.scss';
+
+    background-color: $color-sand-dune;
+    height: 100vh;
+    max-width: 340px;
+    padding: 24px;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__content {
+        margin-top: 24px;
+    }
+}
