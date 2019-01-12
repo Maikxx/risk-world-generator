@@ -3,11 +3,11 @@ import { Sidebar } from '../Core/Layout/Sidebar/Sidebar'
 
 interface Props {}
 
-export class ActionSidebar extends React.Component<Props> {
+export class UISidebar extends React.Component<Props> {
     public render() {
         return (
             <Sidebar title={`Risk World Generator`}>
-                Sidebar
+                Here should go some settings
             </Sidebar>
         )
     }
