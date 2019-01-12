@@ -20,6 +20,9 @@ This list includes all the specifications which would make a great risk board (a
 * Each continent must contain at least two countries.
 * Each continent must have at least two travel links to at least one continent.
 * Each country must have at least one link to another country.
+* The difficulty (an integer) for conquering a continent in it's whole will be calculated by:
+    * The amount of connecting links the continent has.
+    * The amount of countries the continent has.
 
 ## License
 
